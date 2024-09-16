@@ -2,6 +2,7 @@
 let inherit (pkgs) lib;
 in {
   imports = [
+    ./lsps
     ./autocmd.nix
     ./autopairs.nix
     ./bufferline.nix
