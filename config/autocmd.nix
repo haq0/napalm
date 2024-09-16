@@ -21,12 +21,9 @@
       ];
       callback = {
         __raw = ''
-          vim.api.nvim_create_autocmd("BufWritePost", {
-            pattern = "*.hs",
-            callback = function()
-              vim.cmd("silent !hindent %")
-            end,
-          })
+          function()
+            vim.cmd("silent !hindent %")
+          end
         '';
       };
     }
@@ -60,7 +57,6 @@
           '';
       };
     }
-
     {
       desc = "Auto create dir when save file, in case some intermediate directory is missing";
       event = [ "BufWritePre" ];

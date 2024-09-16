@@ -61,7 +61,7 @@ in {
 
     virtualedit = "block";
     winminwidth = 5;
-    filencoding = "utf-8";
+    fileencoding = "utf-8";
     list = true;
     smoothscroll = true;
     fillchars = { eob = " "; };
