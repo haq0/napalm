@@ -37,9 +37,15 @@ in {
     clipboard = "unnamedplus";
     cursorline = true;
     cursorlineopt = "number";
+    
+    number = true;
+    relativenumber = true;
+
+
 
     expandtab = true;
     smartindent = true;
+    autoindent = true;
     shiftwidth = 2;
     tabstop = 2;
     softtabstop = 2;
