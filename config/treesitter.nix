@@ -27,9 +27,9 @@
             "''"
           ];
         };
-        indent = { char = "│"; };
       };
     };
+
     mini.enable = true;
   };
 
