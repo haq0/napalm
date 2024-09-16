@@ -2,8 +2,7 @@
   plugins = {
     lsp = {
       servers = {
-        ruff.enable = true;
-        ruff-lsp.enable = true;
+        pyright.enable = true;
       };
     };
     none-ls = {
