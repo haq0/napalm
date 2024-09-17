@@ -2,7 +2,10 @@
   plugins = {
     lsp = {
       servers = {
-        pyright.enable = true;
+        pyright = {
+          enable = true;
+          cmd = { "/home/miles/.local/nvim/mason/bin/pyright-langserver", "\-\-stdio" };
+        }
       };
     };
     none-ls = {
