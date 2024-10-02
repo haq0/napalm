@@ -14,6 +14,7 @@ in {
     ./lsp.nix
     ./lualine.nix
     ./copilot-chat.nix
+    ./copilot-vim.nix
     ./mappings.nix
     ./noice.nix
     ./none-ls.nix
