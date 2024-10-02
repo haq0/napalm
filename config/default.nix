@@ -13,6 +13,7 @@ in {
     ./gitsigns.nix
     ./lsp.nix
     ./lualine.nix
+    ./copilot-chat.nix
     ./mappings.nix
     ./noice.nix
     ./none-ls.nix
