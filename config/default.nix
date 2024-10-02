@@ -11,7 +11,6 @@ in {
     ./firenvim.nix
     ./general.nix
     ./gitsigns.nix
-    ./image.nix
     ./lsp.nix
     ./lualine.nix
     ./mappings.nix
